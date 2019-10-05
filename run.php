@@ -1,12 +1,12 @@
 <?php
-//CREATED BY ALIP DZIKRI
-//https://github.com/dziunincode69
+//CREATED BY TM@17
+//https://github.com/zent12
 $device = "ebf".rand(255,999)."d".rand(1001,9999)."c4mm95c".rand(2500,6000)."f6c".rand(8000,9999)."4m0";
 $headers1 = array();
 $headers1[] = 'deviceid: '.$device.'';
 $headers1[] = 'osname: android';
-$headers1[] = 'appversion: 0.50.0';
-$headers1[] = 'user-agent: Mucho/0.50.0(104'.rand(1000,999).') MuchoJS/0.50.0('.rand(100,199).') Android/7.1.1 (samsung cannine SM-J'.rand(100,999).'F let1337 ID; emulator/false; notch/false; tablet/false; landscape/false)';
+$headers1[] = 'appversion: 0.54.0';
+$headers1[] = 'user-agent: Mucho/0.54.0(104'.rand(1000,999).') MuchoJS/0.54.0('.rand(100,199).') Android/7.1.1 (samsung cannine SM-J'.rand(100,999).'F let1337 ID; emulator/false; notch/false; tablet/false; landscape/false)';
 $headers1[] = 'accept-language: id;';
 $headers1[] = 'content-type:application/json;charset=utf-8';
 
@@ -17,7 +17,7 @@ $headers2[] = 'sec-fetch-mode: cors';
 echo "\n";
 echo "=========================\n";
 echo "AutoRegis Mucho \n";
-echo "Created By Alip Dzikri \n";
+echo "Created By TM@17 \n";
 echo "=========================\n";
 echo "\n";
 echo "Invite ID : ";
